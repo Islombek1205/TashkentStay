@@ -1,0 +1,33 @@
+.container div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .container input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container span {
+    text-decoration: underline;
+  }
+  

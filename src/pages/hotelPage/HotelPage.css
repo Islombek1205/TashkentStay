@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HotelPage.css */
+.hotelContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    font-family: Arial, sans-serif;
+  }
+
+  .hotelContainer h1{
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .aboutHotel{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .hotelContainer h2{
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .aboutRooms{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .roomsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+  }
+
+  .address{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .roomCard {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .roomCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .roomDetails {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+  
+  .roomDetails button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .roomDetails button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    margin: 40px auto 0;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    animation: l2 2s linear infinite;
+  }
+  .loader:before {
+    content:"Loading..."
+  }
+  @keyframes l2 {to{background-size: 100% 3px}
+}

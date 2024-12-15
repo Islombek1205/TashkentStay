@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.signUpForm{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #007bff;
+    gap: 10px;
+}
+
+.signUpForm h1{
+    color: #007bff;
+}
+
+.signUpForm input{
+    outline: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.signUpForm button{
+    width: 100%;
+    border-radius: 5px;
+}
